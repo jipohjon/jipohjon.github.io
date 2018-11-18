@@ -1,0 +1,54 @@
+/*!
+ * Start Bootstrap - 1 Col Portfolio (https://startbootstrap.com/template-overviews/1-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+h4 {
+  color: white;
+}
+
+p {
+  font size: 20px;
+}
+.img-thumbnail {
+  background-color: #fff;
+  border-color: orange;
+  border-width: 3px;
+  width: 90%;
+  height: 75%;
+}
+
+.img-thumbnail:hover {
+  border-color: brown;
+}
+
+hr {
+  padding: 8px;
+  border-color: white;
+}
+
+.jumbotron {
+    padding-bottom: 0.1em;
+    background-image: url("../assets/originaltopo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron h2 {
+    text-align: left;
+    color: orange;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 3px 3px 4px black, 0 0 30px black, 0 0 5px black;
+}
